@@ -14,8 +14,12 @@ systemctl enable docker
 systemctl start docker
 usermod -aG docker ubuntu
 
-## Extra packages install
+## Extra packages install 
 apt install vim git -Y
+
+## Extra packages install
+apt install wget git -Y
+
 
 # run jenkins
 mkdir -p /var/jenkins_home
