@@ -15,10 +15,7 @@ systemctl start docker
 usermod -aG docker ubuntu
 
 ## Extra packages install 
-apt install vim git -Y
-
-## Extra packages install
-apt install wget git -Y
+apt install vim git wget -Y
 
 
 # run jenkins
